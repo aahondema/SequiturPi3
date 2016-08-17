@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Battery" xml:space="preserve">
+    <value>Batterij</value>
+  </data>
+  <data name="Device.Text" xml:space="preserve">
+    <value>Apparaat</value>
+  </data>
+  <data name="HeaderUseZwave.OffContent" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="HeaderLanguage.Header" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="HeaderMeasurementInterval.Header" xml:space="preserve">
+    <value>Interval tussen meetingen</value>
+  </data>
+  <data name="HeaderSenddata.Header" xml:space="preserve">
+    <value>Gegevens versturen?</value>
+  </data>
+  <data name="HeaderSenddata.OffContent" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="HeaderSenddata.OnContent" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="HeaderSenddataInterval.Header" xml:space="preserve">
+    <value>Interval voor verzenden data</value>
+  </data>
+  <data name="HeaderTemperatureCorrection.Header" xml:space="preserve">
+    <value>Temperatuur correctie</value>
+  </data>
+  <data name="HeaderUseZwave.Header" xml:space="preserve">
+    <value>Z-Wave gebruiken?</value>
+  </data>
+  <data name="HeaderUseZwave.OnContent" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Humidity" xml:space="preserve">
+    <value>Luchtvochtigheid</value>
+  </data>
+  <data name="IPAddress.Text" xml:space="preserve">
+    <value>IP adres</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Licht</value>
+  </data>
+  <data name="Luminance" xml:space="preserve">
+    <value>Lichtsterkte</value>
+  </data>
+  <data name="MenuClosedown.Text" xml:space="preserve">
+    <value>Afsluiten</value>
+  </data>
+  <data name="MenuDeviceinfo.Text" xml:space="preserve">
+    <value>Apparaatinfo</value>
+  </data>
+  <data name="MenuHome.Text" xml:space="preserve">
+    <value>Sensoren</value>
+  </data>
+  <data name="MenuRestart.Text" xml:space="preserve">
+    <value>Herstarten</value>
+  </data>
+  <data name="MenuSettings.Text" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="minutes left" xml:space="preserve">
+    <value>minuten resterend</value>
+  </data>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="Network.Text" xml:space="preserve">
+    <value>Netwerk</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="Pid.Text" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="Sensor" xml:space="preserve">
+    <value>Beweging</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Temperatuur</value>
+  </data>
+  <data name="TileBattery.OffContent" xml:space="preserve">
+    <value>Batterij niet tonen</value>
+  </data>
+  <data name="TileBattery.OnContent" xml:space="preserve">
+    <value>Batterij tonen</value>
+  </data>
+  <data name="TileClock.OffContent" xml:space="preserve">
+    <value>Tijd niet tonen</value>
+  </data>
+  <data name="TileClock.OnContent" xml:space="preserve">
+    <value>Tijd tonen</value>
+  </data>
+  <data name="TileHumidity.OffContent" xml:space="preserve">
+    <value>Luchtvochtigheid niet tonen</value>
+  </data>
+  <data name="TileHumidity.OnContent" xml:space="preserve">
+    <value>Luchtvochtigheid tonern</value>
+  </data>
+  <data name="TileLuminance.OffContent" xml:space="preserve">
+    <value>Lichtsterkte niet tonen</value>
+  </data>
+  <data name="TileLuminance.OnContent" xml:space="preserve">
+    <value>Lichtsterkte tonen</value>
+  </data>
+  <data name="TileMotion.OffContent" xml:space="preserve">
+    <value>Beweging niet tonen</value>
+  </data>
+  <data name="TileMotion.OnContent" xml:space="preserve">
+    <value>Beweging tonen</value>
+  </data>
+  <data name="TileTemperature.OffContent" xml:space="preserve">
+    <value>Temperatuur niet tonen</value>
+  </data>
+  <data name="TileTemperature.OnContent" xml:space="preserve">
+    <value>Temperatuur tonen</value>
+  </data>
+  <data name="TileUV.OffContent" xml:space="preserve">
+    <value>UV niet tonen</value>
+  </data>
+  <data name="TileUV.OnContent" xml:space="preserve">
+    <value>UV tonen</value>
+  </data>
+  <data name="TileVibration.OffContent" xml:space="preserve">
+    <value>Trilling niet tonen</value>
+  </data>
+  <data name="TileVibration.OnContent" xml:space="preserve">
+    <value>Trilling tonen</value>
+  </data>
+  <data name="TileWeather.OffContent" xml:space="preserve">
+    <value>Weer niet tonen</value>
+  </data>
+  <data name="TileWeather.OnContent" xml:space="preserve">
+    <value>Weer tonen</value>
+  </data>
+  <data name="TileZwaveLight.OffContent" xml:space="preserve">
+    <value>Z-Wave licht niet tonen</value>
+  </data>
+  <data name="TileZwaveLight.OnContent" xml:space="preserve">
+    <value>Z-Wave licht tonen</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tijd</value>
+  </data>
+  <data name="UV" xml:space="preserve">
+    <value>UV</value>
+  </data>
+  <data name="Vibration" xml:space="preserve">
+    <value>Trilling</value>
+  </data>
+  <data name="Vid.Text" xml:space="preserve">
+    <value>Leverancier ID</value>
+  </data>
+  <data name="Weather" xml:space="preserve">
+    <value>Weer</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Pressure (hPa)" xml:space="preserve">
+    <value>Luchtdruk (hPa)</value>
+  </data>
+  <data name="ColorScheme" xml:space="preserve">
+    <value>Kleurschema</value>
+  </data>
+  <data name="LowLuxLevel.Header" xml:space="preserve">
+    <value>Laag Lux niveau</value>
+  </data>
+  <data name="OutdoorHumidity" xml:space="preserve">
+    <value>Luchtvochtigheid (buiten)</value>
+  </data>
+  <data name="OutdoorTemperature" xml:space="preserve">
+    <value>Temperatuur (buiten)</value>
+  </data>
+  <data name="Pressure" xml:space="preserve">
+    <value>Luchtdruk (buiten)</value>
+  </data>
+  <data name="BtnGraph.Content" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="minute left" xml:space="preserve">
+    <value>minuut resterend</value>
+  </data>
+  <data name="10Minutes.Content" xml:space="preserve">
+    <value>10 minuten</value>
+  </data>
+  <data name="1800Seconds.Content" xml:space="preserve">
+    <value>30 minuten</value>
+  </data>
+  <data name="1Minute.Content" xml:space="preserve">
+    <value>1 minuut</value>
+  </data>
+  <data name="1Second.Content" xml:space="preserve">
+    <value>1 seconde</value>
+  </data>
+  <data name="2Seconds.Content" xml:space="preserve">
+    <value>2 seconden</value>
+  </data>
+  <data name="300Seconds.Content" xml:space="preserve">
+    <value>5 minuten</value>
+  </data>
+  <data name="30Minutes.Content" xml:space="preserve">
+    <value>30 minutes</value>
+  </data>
+  <data name="3600Seconds.Content" xml:space="preserve">
+    <value>60 minuten</value>
+  </data>
+  <data name="3Seconds.Content" xml:space="preserve">
+    <value>3 seconden</value>
+  </data>
+  <data name="4Seconds.Content" xml:space="preserve">
+    <value>4 seconden</value>
+  </data>
+  <data name="5Minutes.Content" xml:space="preserve">
+    <value>5 minuten</value>
+  </data>
+  <data name="5Seconds.Content" xml:space="preserve">
+    <value>5 seconden</value>
+  </data>
+  <data name="600Seconds.Content" xml:space="preserve">
+    <value>10 minuten</value>
+  </data>
+  <data name="60Minutes.Content" xml:space="preserve">
+    <value>60 minuten</value>
+  </data>
+  <data name="60Seconds.Content" xml:space="preserve">
+    <value>1 minuut</value>
+  </data>
+  <data name="Dutch.Content" xml:space="preserve">
+    <value>Nederlands</value>
+  </data>
+  <data name="English.Content" xml:space="preserve">
+    <value>Engels</value>
+  </data>
+  <data name="Minus10degrees.Content" xml:space="preserve">
+    <value>Min 10 graden</value>
+  </data>
+  <data name="Minus1degree.Content" xml:space="preserve">
+    <value>Min 1 graad</value>
+  </data>
+  <data name="Minus2degrees.Content" xml:space="preserve">
+    <value>Min 2 graden</value>
+  </data>
+  <data name="Minus3degrees.Content" xml:space="preserve">
+    <value>Min 3 graden</value>
+  </data>
+  <data name="Minus4degrees.Content" xml:space="preserve">
+    <value>Min 4 graden</value>
+  </data>
+  <data name="Minus5degrees.Content" xml:space="preserve">
+    <value>Min 5 graden</value>
+  </data>
+  <data name="Minus6degrees.Content" xml:space="preserve">
+    <value>Min 6 graden</value>
+  </data>
+  <data name="Minus7degrees.Content" xml:space="preserve">
+    <value>Min 7 graden</value>
+  </data>
+  <data name="Minus8degrees.Content" xml:space="preserve">
+    <value>Min 8 graden</value>
+  </data>
+  <data name="Minus9degrees.Content" xml:space="preserve">
+    <value>Min 9 graden</value>
+  </data>
+  <data name="NoCorrection.Content" xml:space="preserve">
+    <value>Geen correctie</value>
+  </data>
+  <data name="Plus10degrees.Content" xml:space="preserve">
+    <value>Plus 10 graden</value>
+  </data>
+  <data name="Plus1degree.Content" xml:space="preserve">
+    <value>Plus 1 graad</value>
+  </data>
+  <data name="Plus2degrees.Content" xml:space="preserve">
+    <value>Plus 2 graden</value>
+  </data>
+  <data name="Plus3degrees.Content" xml:space="preserve">
+    <value>Plus 3 graden</value>
+  </data>
+  <data name="Plus4degrees.Content" xml:space="preserve">
+    <value>Plus 4 graden</value>
+  </data>
+  <data name="Plus5degrees.Content" xml:space="preserve">
+    <value>Plus 5 graden</value>
+  </data>
+  <data name="Plus6degrees.Content" xml:space="preserve">
+    <value>Plus 6 graden</value>
+  </data>
+  <data name="Plus7degrees.Content" xml:space="preserve">
+    <value>Plus 7 graden</value>
+  </data>
+  <data name="Plus8degrees.Content" xml:space="preserve">
+    <value>Plus 8 greden</value>
+  </data>
+  <data name="Plus9degrees.Content" xml:space="preserve">
+    <value>Plus 9 graden</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Vrijdag</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Maandag</value>
+  </data>
+  <data name="Presence" xml:space="preserve">
+    <value>Aanwezigheid</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Zaterdag</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Zondag</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Donderdag</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Dinsdag</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Woensdag</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="TilePresence.OffContent" xml:space="preserve">
+    <value>Aanwezigheid niet tonen</value>
+  </data>
+  <data name="TilePresence.OnContent" xml:space="preserve">
+    <value>Aanwezigheid tonen</value>
+  </data>
+</root>
